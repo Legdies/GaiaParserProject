@@ -176,9 +176,9 @@ class Pipeline:
 
     def run(self, files, threads: int):
         """
-        Запускает producer/consumer:
+        Starts producer/consumer:
           - downloaders = ceil(threads * 0.25)
-          - parsers = остальное
+          - parsers = everything else
         """
         if threads < 1:
             threads = 1
