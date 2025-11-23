@@ -33,4 +33,4 @@ To verify everything:
 python3 gaia.py verify
 ```
 
-I hope it was useful but you always can use --help arg inside.
+I hope it was useful, but you always can use --help arg inside.
